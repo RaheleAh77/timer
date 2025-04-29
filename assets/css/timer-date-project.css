@@ -1,0 +1,36 @@
+body{
+    font-family: 'Open Sans',sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, #BA5370, #F4E2D8);
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.container>div{
+    background-color:#dfe6e9;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: #636e72;
+}
+
+.container span{
+    display: block;
+    color: #fff;
+    font-size: 45px;
+}
