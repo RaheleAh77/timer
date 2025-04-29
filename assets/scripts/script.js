@@ -13,4 +13,4 @@ function getTime() {
   second.textContent = getSecondSystem < 10 ? "0" + getSecondSystem : getSecondSystem;
 }
 
-setInterval(getTime, 1000);
+setInterval(getTime, 500);
